@@ -7,6 +7,7 @@ body {
   font-style: normal;
   padding: 1rem;
   background-image: url(../img/sfondo.png);
+  background-size: 100%;
 }
 
 /* HEADER */
@@ -40,7 +41,7 @@ nav a {
 main {
   width: 100%;
   background-color: white;
-  /* padding: 0.5rem; */
+  padding-block: 1rem;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1 {
@@ -173,5 +174,31 @@ form div {
   font-size: 20px;
   padding-left: 0.5rem;
 }
+.correlation {
+  line-height: 1.7rem;
+}
+.correlation a {
+  color: #3792b9;
+}
+.data {
+  text-align: right;
+  padding-top: 1rem;
+}
 
 /* FOOTER */
+footer {
+  width: 100%;
+  background-color: #225364;
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+  font-size: 13px;
+}
+
+footer p {
+  padding: 1rem;
+}
+footer a {
+  color: #9e36af;
+  font-weight: 700;
+}
