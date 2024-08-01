@@ -76,7 +76,7 @@ article span {
 }
 
 article ul {
-  list-style: circle;
+  list-style: disc;
   padding-inline: 2rem;
 }
 article ol {
@@ -131,11 +131,25 @@ td {
 
 iframe {
   width: 100%;
-  margin-block: 2rem;
+  margin-block: 1rem;
   border-radius: 30px;
 }
 /* FORM */
 
+aside {
+  width: 100%;
+  background-color: #e2e3e4;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+
+aside h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  padding-block: 1rem;
+  text-align: center;
+}
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
