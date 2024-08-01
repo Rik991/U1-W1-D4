@@ -6,7 +6,7 @@ body {
   font-weight: 400;
   font-style: normal;
   padding: 1rem;
-  background-image: url(./sfondo.png);
+  background-image: url(../img/sfondo.png);
 }
 
 /* HEADER */
@@ -107,7 +107,7 @@ legend {
 }
 table thead {
   height: 3rem;
-  background-color: blue;
+  background-color: #4668c1;
   color: white;
   text-align: center;
 }
@@ -126,7 +126,7 @@ td {
 
 #banner {
   height: 1px;
-  background-color: blue;
+  background-color: #4668c1;
 }
 
 iframe {
@@ -139,17 +139,39 @@ iframe {
 aside {
   width: 100%;
   background-color: #e2e3e4;
-  padding: 0.5rem;
+  margin-block: 1rem;
   font-size: 20px;
 }
 
-aside h3 {
+form {
+  padding-inline: 0.5rem;
+  padding-block: 1rem;
+}
+
+form div {
+  display: inline;
+}
+
+#button {
+  background-color: #4668c1;
+  color: white;
+}
+/* ELEMENTI NELL' ASIDE */
+.subtitle {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 25px;
   padding-block: 1rem;
   text-align: center;
 }
-/* ELEMENTI NELL' ASIDE */
+
+.novita,
+.correlation {
+  width: 95%;
+  background-color: #e2e3e4;
+  margin-block: 1rem;
+  font-size: 20px;
+  padding-left: 0.5rem;
+}
 
 /* FOOTER */
