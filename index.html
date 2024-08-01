@@ -36,12 +36,12 @@
           <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span>parti comuni</span> da applicare a tutte le pagine.</p>
           <p>Le varie aree saranno quindi suddivise in:</p>
           <ul>
-            <li>Contenuti di intestazione del tag <span class="button">&lt;header&gt;</span class="button"></li>
-            <li>Contenuti centrali variabili del tag <span class="button">&lt;main&gt;</span class="button"> &lpar;corpo principale&rpar;</li>
-            <li>Contenuti di fine pagina comuni, da inserire nel tag <span class="button">&lt;footer&gt;</span class="button"></li>
+            <li>Contenuti di intestazione del tag <span class="button">&lt;header&gt;</span></li>
+            <li>Contenuti centrali variabili del tag <span class="button">&lt;main&gt;</span > &lpar;corpo principale&rpar;</li>
+            <li>Contenuti di fine pagina comuni, da inserire nel tag <span class="button">&lt;footer&gt;</span></li>
           </ul>
-          <p>Formattazione del codice</p>
-          <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span>selezionare con i CSS.</span> Perciò i passi saranno:</p>
+          <p class="no-padding">Formattazione del codice</p>
+          <p class="no-padding">Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span>selezionare con i CSS.</span> Perciò i passi saranno:</p>
           <ol>
             <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
             <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
@@ -49,13 +49,13 @@
           </ol>
           <p>L'appicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressocchè totale.</p>
         </div>
-        <table border="2em">
+        <table>
           <thead>
             <legend>Diffusione dei CSS</legend>
             <tr>
               <th>Anno</th>
-              <th>% di utilizzo</th>
-              <th>Supporto browsers</th>
+              <th>% di <br>utilizzo</th>
+              <th>Supporto <br>browsers</th>
             </tr>
           </thead>
           <tbody>
@@ -64,8 +64,8 @@
               <td>20%</td>
               <td>17%</td>
             </tr>
-            <tr>
-              <td>2002</td>
+            <tr class="grey">
+              <td>2000</td>
               <td>35%</td>
               <td>22%</td>
             </tr>
@@ -74,7 +74,7 @@
               <td>45%</td>
               <td>42%</td>
             </tr>
-            <tr>
+            <tr class="grey">
               <td>2008</td>
               <td>80%</td>
               <td>51%</td>
@@ -86,13 +86,15 @@
             </tr>
           </tbody>
         </table>
-        <p>
-          Un test di validazione potrà essere fatto tramite <a href="#">il tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto
-          il nostro obbiettivo ed essere stati dei veri developer come loro:
-        </p>
+        <div id="banner"></div>
+        <div>
+          <p>
+            Un test di validazione potrà essere fatto tramite <a href="#">il tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto
+            il nostro obbiettivo ed essere stati dei veri developer come loro:
+          </p>
+        </div>
         <iframe
-          width="100%"
-          src="https://www.youtube.com/embed/m4WSQHmTyUI?si=0bDXwbV0rEUCaSxd"
+                    src="https://www.youtube.com/embed/m4WSQHmTyUI?si=0bDXwbV0rEUCaSxd"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; 

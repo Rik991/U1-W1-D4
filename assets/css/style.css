@@ -50,6 +50,7 @@ h1 {
 }
 section div {
   padding-block: 1rem;
+  padding-inline: 0.5rem;
 }
 
 h2 {
@@ -60,14 +61,27 @@ article div {
   font-size: 20px;
   line-height: 1.7rem;
 }
+article {
+  padding: 0.5rem;
+}
+
 article p,
 article ul,
 article ol {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 article span {
   color: #aa47aa;
   font-weight: 700;
+}
+
+article ul {
+  list-style: circle;
+  padding-inline: 2rem;
+}
+article ol {
+  list-style: decimal;
+  padding-inline: 2rem;
 }
 
 .button {
@@ -78,8 +92,48 @@ article span {
   border-radius: 10px;
 }
 
-/* TABELLE */
+.no-padding {
+  padding-block: 0;
+}
 
+/* TABELLE */
+table {
+  width: 100%;
+}
+legend {
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+}
+table thead {
+  height: 3rem;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+tr {
+  height: 3rem;
+}
+td {
+  width: 33.33%;
+}
+
+.grey {
+  width: 100%;
+  background-color: rgb(214, 214, 214);
+}
+
+#banner {
+  height: 1px;
+  background-color: blue;
+}
+
+iframe {
+  width: 100%;
+  margin-block: 2rem;
+  border-radius: 30px;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
